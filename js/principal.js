@@ -36,5 +36,5 @@ tienda.procesarDato(dato8);
 
 let salida=document.getElementById("salida");
 
-salida.innerHTML+="<br>  Promedio de los precios de venta: " +tienda.promPrecio();
+salida.innerHTML+="<br>  Promedio de  los precios de venta: " +tienda.promPrecio();
 salida.innerHTML+="<br>  Cantidad de artículos con precio superior a 65$: " +tienda.devCantPS();
